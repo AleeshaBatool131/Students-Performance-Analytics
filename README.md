@@ -153,5 +153,15 @@ Through the completed milestones, this project has provided practical experience
 - Saving analysis outputs and cleaned datasets.
 
 ---
+### Milestone 5 — Exploratory Data Analysis (EDA)
+
+- Explored the cleaned student dataset using Pandas.
+- Examined dataset dimensions, columns, data types, and descriptive statistics.
+- Analysed mean, median, minimum, maximum, and standard deviation of student marks.
+- Investigated correlations between study hours, attendance, previous marks, and final marks.
+- Compared average final marks according to study hours and attendance.
+- Detected potential outliers using the Interquartile Range (IQR) method.
+- Created an EDA dashboard using Matplotlib and Seaborn.
+- Saved the dashboard as `outputs/eda_dashboard.png`.
 
 *This is an educational project developed incrementally while learning Python, data analysis, and machine learning.*
