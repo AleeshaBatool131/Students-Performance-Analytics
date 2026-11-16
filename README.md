@@ -163,5 +163,16 @@ Through the completed milestones, this project has provided practical experience
 - Detected potential outliers using the Interquartile Range (IQR) method.
 - Created an EDA dashboard using Matplotlib and Seaborn.
 - Saved the dashboard as `outputs/eda_dashboard.png`.
+### Milestone 6 — Introduction to Machine Learning
+
+- Learned the fundamentals of Machine Learning.
+- Studied supervised, unsupervised, and reinforcement learning.
+- Understood important ML concepts, including features, targets, training, testing, models, and predictions.
+- Learned the basic concepts of Linear Regression.
+- Installed the Scikit-learn library.
+- Selected input features (`Study_Hours`, `Attendance`, and `Previous_Marks`).
+- Selected `Final_Marks` as the target variable.
+- Divided the dataset into training and testing sets using `train_test_split()`.
+- Prepared the dataset for the first Machine Learning model.
 
 *This is an educational project developed incrementally while learning Python, data analysis, and machine learning.*
