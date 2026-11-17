@@ -8,6 +8,14 @@ A beginner-friendly Python data analytics and machine learning project that expl
 The goal of this project is to analyse student data, understand the factors associated with academic performance, clean and prepare the dataset, and later build a machine learning model to predict students' final marks.
 
 The project is being developed in **Python** using **VS Code**. Pandas is used for data manipulation, while Matplotlib and Seaborn are used for visualisation.
+## Technologies and Libraries
+
+- **Python** — main programming language.
+- **Pandas** — loading, inspecting, analysing, and cleaning tabular data.
+- **Matplotlib** — creating charts.
+- **Seaborn** — creating statistical visualisations.
+- **VS Code** — development environment.
+
 
 ## Work Completed So Far
 
@@ -56,103 +64,7 @@ The dashboard is saved in the `outputs` folder.
 
 **Note:** The cleaning rules assume study hours are between 0 and 24, and attendance and marks are percentages between 0 and 100. These limits should be adjusted if the dataset uses different definitions. The practice dataset is kept separate so the original `students.csv` remains unchanged.
 
-## Project Structure
 
-```text
-Student-Performance-Analytics/
-│
-├── data/
-│   ├── students.csv
-│   └── students_raw.csv
-│
-├── src/
-│   ├── analysis.py
-│   ├── visualization.py
-│   └── preprocessing.py
-│
-├── outputs/
-│   ├── student_performance_dashboard.png
-│   └── students_cleaned.csv
-│
-├── venv/
-└── README.md
-```
-
-The `venv` folder is your local virtual environment. It is normally not committed to GitHub; recreate it on another computer and reinstall the dependencies instead.
-
-## Technologies and Libraries
-
-- **Python** — main programming language.
-- **Pandas** — loading, inspecting, analysing, and cleaning tabular data.
-- **Matplotlib** — creating charts.
-- **Seaborn** — creating statistical visualisations.
-- **VS Code** — development environment.
-
-## How to Run the Project
-
-Run these commands from the project root directory.
-
-### 1. Activate the virtual environment (Windows PowerShell)
-
-```powershell
-.\venv\Scripts\Activate.ps1
-```
-
-If activation is blocked by PowerShell, you can run the virtual environment's Python directly:
-
-```powershell
-.\venv\Scripts\python.exe --version
-```
-
-### 2. Run the analysis
-
-```powershell
-python src/analysis.py
-```
-
-### 3. Generate the visualisation dashboard
-
-```powershell
-python src/visualization.py
-```
-
-### 4. Run data cleaning and preprocessing
-
-```powershell
-python src/preprocessing.py
-```
-
-The preprocessing script reads `data/students_raw.csv` and saves the cleaned data to `outputs/students_cleaned.csv`.
-
-If your scripts use a different input filename, adjust the relevant `pd.read_csv(...)` path accordingly.
-
-## Current Progress
-
-**Completed:** Milestones 1, 2, 3, and 4.
-
-**Next:** Milestone 5 — Exploratory Data Analysis (EDA).
-
-## Upcoming Milestones
-
-1. Exploratory Data Analysis (EDA).
-2. Introduction to Machine Learning.
-3. Build the first machine learning model using Linear Regression.
-4. Evaluate the model and make predictions.
-5. Integrate the complete project.
-
-## Learning Outcomes So Far
-
-Through the completed milestones, this project has provided practical experience with:
-
-- Python project organisation and virtual environments.
-- Reading and analysing CSV datasets with Pandas.
-- Selecting, filtering, and summarising data.
-- Creating charts to explore student performance.
-- Detecting missing, duplicate, invalid, and out-of-range data.
-- Applying basic data-cleaning and preprocessing techniques.
-- Saving analysis outputs and cleaned datasets.
-
----
 ### Milestone 5 — Exploratory Data Analysis (EDA)
 
 - Explored the cleaned student dataset using Pandas.
@@ -174,5 +86,15 @@ Through the completed milestones, this project has provided practical experience
 - Selected `Final_Marks` as the target variable.
 - Divided the dataset into training and testing sets using `train_test_split()`.
 - Prepared the dataset for the first Machine Learning model.
+### Milestone 7 — First Machine Learning Model: Linear Regression
+
+- Learned the fundamentals of Linear Regression.
+- Understood simple and multiple linear regression equations.
+- Imported the Linear Regression algorithm from Scikit-learn.
+- Created a Linear Regression model using `LinearRegression()`.
+- Trained the model using `fit()`.
+- Examined the learned coefficients and intercept.
+- Generated predictions using `predict()`.
+- Predicted final marks for a new student using study hours, attendance, and previous marks.
 
 *This is an educational project developed incrementally while learning Python, data analysis, and machine learning.*
