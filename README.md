@@ -97,4 +97,23 @@ The dashboard is saved in the `outputs` folder.
 - Generated predictions using `predict()`.
 - Predicted final marks for a new student using study hours, attendance, and previous marks.
 
+
+### Milestone 8 — Model Evaluation and Prediction
+
+- Learned why machine learning models need evaluation.
+- Studied four evaluation metrics:
+  - Mean Absolute Error (MAE)
+  - Mean Squared Error (MSE)
+  - Root Mean Squared Error (RMSE)
+  - R² Score
+- Evaluated the Linear Regression model using Scikit-learn.
+- Compared actual and predicted student marks.
+- Calculated prediction errors for individual students.
+- Created an Actual vs Predicted visualization.
+- Saved the evaluation graph as `outputs/model_evaluation.png`.
+- Learned how to save a trained model using Joblib.
+- Loaded the saved model without retraining it.
+- Generated predictions using the loaded model.
+- Learned about data leakage and the importance of correct preprocessing.
+
 *This is an educational project developed incrementally while learning Python, data analysis, and machine learning.*
